@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.headercontent {
+    display: flex;
+   
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.navleft {
+    display: flex;
+   
+    align-items: center;
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
+
+.navleft img {
+    
+    width: auto;
+    height: 120px;
+    object-fit: contain;
+    
+}
+.leftnavcont{
+    
+    padding-left: 10px;
+    font-weight: 500; 
+    display: flex;
+    gap: 1.8rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.leftnavcont :hover{
+    color: rgb(0, 153, 255);
+    
+}
+.navright {
+    margin-left: 730px;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+.navright li {
+    text-decoration: none;
+    
+    justify-content: center;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navright ul{
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+}
+
+.rightnav li:hover {
+    color: rgb(0, 153, 255);
+}
+
+.startbutn {
+    padding: 10px 20px;
+    background-color: rgb(0, 195, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px; 
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+.globe{
+    color: black;
+}
+
+.startbutn:hover {
+    background-color: rgb(16, 142, 214);
+    color: rgb(182, 168, 168);
+}
